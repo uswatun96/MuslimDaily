@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".hadistok">
+
+    <ImageView
+        android:id="@+id/img_view"
+        android:layout_marginRight="5dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="5dp"
+        android:src="@drawable/hds"
+        android:layout_gravity="center"
+        android:scaleType="fitXY"
+        android:layout_width="420dp"
+        android:layout_height="200dp"
+        tools:ignore="MissingConstraints" />
+
+    <ListView
+        android:layout_marginTop="200dp"
+        android:id="@+id/listitem"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+</android.support.constraint.ConstraintLayout>
